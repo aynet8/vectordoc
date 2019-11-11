@@ -1,19 +1,20 @@
 git clone https://github.com/aynet8/vectordoc.git
 
-git status ²é¿´×´Ì¬
-git add . Ìí¼ÓÎÄ¼ş
-git commit -m '×¢ÊÍ' Ìá½»Ìí¼ÓµÄÎÄ¼ş²¢±¸×¢ËµÃ÷
+1
+git status æŸ¥çœ‹çŠ¶æ€
+git add . æ·»åŠ æ–‡ä»¶
+git commit -m 'æ³¨é‡Š' æäº¤æ·»åŠ çš„æ–‡ä»¶å¹¶å¤‡æ³¨è¯´æ˜
 
-git remote add origin git@github.com:jinzhaogit/git.git Á¬½ÓÔ¶³Ì²Ö¿â
+git remote add origin git@github.com:jinzhaogit/git.git è¿æ¥è¿œç¨‹ä»“åº“
 
-git push -u origin master ½«±¾µØ²Ö¿âÎÄ¼şÍÆËÍµ½Ô¶³Ì²Ö¿â
+git push -u origin master å°†æœ¬åœ°ä»“åº“æ–‡ä»¶æ¨é€åˆ°è¿œç¨‹ä»“åº“
 
-git log ²é¿´±ä¸üÈÕÖ¾
+git log æŸ¥çœ‹å˜æ›´æ—¥å¿—
 
-git reset --hard °æ±¾ºÅÇ°ÁùÎ» »Ø¹éµ½Ö¸¶¨°æ±¾
+git reset --hard ç‰ˆæœ¬å·å‰å…­ä½ å›å½’åˆ°æŒ‡å®šç‰ˆæœ¬
 
-git branch ²é¿´·ÖÖ§
-git branch newname ´´½¨Ò»¸ö½ĞnewnameµÄ·ÖÖ§
-git checkout newname ÇĞ»»µ½½ĞnewnameµÄ·ÖÖ§ÉÏ
-git merge newname °Ñnewname·ÖÖ§ºÏ²¢µ½µ±Ç°·ÖÖ§ÉÏ
-git pull origin master ½«master·ÖÖ§ÉÏµÄÄÚÈİÀ­µ½±¾µØÉÏ
+git branch æŸ¥çœ‹åˆ†æ”¯
+git branch newname åˆ›å»ºä¸€ä¸ªå«newnameçš„åˆ†æ”¯
+git checkout newname åˆ‡æ¢åˆ°å«newnameçš„åˆ†æ”¯ä¸Š
+git merge newname æŠŠnewnameåˆ†æ”¯åˆå¹¶åˆ°å½“å‰åˆ†æ”¯ä¸Š
+git pull origin master å°†masteråˆ†æ”¯ä¸Šçš„å†…å®¹æ‹‰åˆ°æœ¬åœ°ä¸Š
