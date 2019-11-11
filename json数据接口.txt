@@ -1,0 +1,66 @@
+//http://jsonplaceholder.typicode.com/
+安装 json-server
+https://www.npmjs.com/package/json-server
+
+1.创建目录 Visualization
+
+npm init
+npm install json-server --save
+
+//想删除
+npm uninstall json-server
+
+2.创建db.json
+
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
+
+3.修改 package.json
+
+添加
+"scripts": {
+    "json:server": "json-server --watch db.json"
+}
+
+npm run json:server
+
+4.模拟添加数据 需要postman
+https://www.getpostman.com/
+（1）添加
+选post请求
+http://127.0.0.1:3000/objects/
+选 Headers
+KEY                 VALUE
+Content-Type    application/json
+
+选 Body  -》  raw
+{
+      "name":"主机3",
+      "x": 6,
+      "y": 0,
+      "z": 3,
+      "type": "host"
+}
+send 之后
+db.json 中就会添加一条数据 
+（2）删除
+选delete请求
+http://127.0.0.1:3000/objects/4  写个id号
+send 之后
+db.json 删除了一条数据
+（3）更新
+选PATCH
+http://127.0.0.1:3000/objects/3
+body 填 
+{
+  "name": "主机x"
+}
+
+
