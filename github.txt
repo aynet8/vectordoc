@@ -1,6 +1,4 @@
 git clone https://github.com/aynet8/vectordoc.git
-
-1
 git status 查看状态
 git add . 添加文件
 git commit -m '注释' 提交添加的文件并备注说明
